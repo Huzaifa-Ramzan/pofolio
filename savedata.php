@@ -11,7 +11,7 @@
 	$header="From:$email";
 	mail($to,$subject,$email,$header);
 		
-	header("Location:https://huzaifaramzan1.netlify.app/");
+	header("Location:https://huzaifaramzan1.netlify.app");
     
 						
 
