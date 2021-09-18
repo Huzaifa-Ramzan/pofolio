@@ -9,9 +9,8 @@
 	$to="huzaifa.1ramzan@gmail.com";
 	$subject='project';
 	$header="From:$email";
-	if(mail($to,$subject,$email,$header)){
-		echo"send";
-		}
+	mail($to,$subject,$email,$header);
+		
 	header("Location:https://huzaifaramzan1.netlify.app/");
     
 						
