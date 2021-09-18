@@ -12,7 +12,7 @@
 	if(mail($to,$subject,$email,$header)){
 		echo"send";
 		}
-	header("Location:http://localhost/myportfolio/");
+	header("Location:https://huzaifaramzan1.netlify.app/");
     
 						
 
